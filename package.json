@@ -1,0 +1,24 @@
+{
+  "name": "state-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src/ -d buildnpm install --save-dev flow-bin/",
+    "flow": "flow"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.92.1",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9"
+  }
+}
